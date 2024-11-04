@@ -156,22 +156,28 @@
             <div class="container">
                 <div class="section-heading" data-name="T">
                     <span>Tokenomic ?</span>
-                    <h5>Distribusi dari total 3 miliar token $TRX dirancang untuk memastikan keberlanjutan jangka
-                        panjang dan keamanan komunitas</h5>
+                    <h5>
+                        Distribusi 3 miliar token $TRX dirancang untuk memastikan keberlanjutan jangka panjang dan keamanan komunitas.</h5>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-5 order-2 order-lg-1">
                         <div class="bg-light border-radius-10 p-3 p-sm-4">
                             <ul class="token-list">
-                                <li><span>Start Date</span> 28 July 2023</li>
-                                <li><span>End Date</span> 28 Aug 2023</li>
-                                <li><span>Soft Cap</span> $ 5,171,000</li>
-                                <li><span>Hard Cap</span> $ 13,710,00</li>
-                                <li><span>Minimum</span> $ 60</li>
-                                <li><span>Maximum</span> $ 27,000</li>
-                                <li><span>Currencies</span> NEO, GAS</li>
-                                <li><span>Max Supply</span> 642,000,00</li>
-                                <li><span>Sale Per%</span> 42%</li>
+                                <li><p class="text-dark">Presale, Airdrop, & Community Incentives (66.67%)</p> <p class="text-muted fw-normal fs-11" style="font-size: 14px">This allocation covers presale initiatives, airdrops, and community incentives, including
+                                    referral programs and community activities.
+                                    </p></li>
+                                    <li><p class="text-dark">Team & Development, Chain Inventory (13.33%)</p> <p class="text-muted fw-normal" style="font-size: 14px">This allocation covers team compensation for development, marketing, and operations. Fair
+                                        compensation for the team is essential to maintaining dedication to project goals.
+
+                                        </p></li>
+                                    <li><p class="text-dark">Liquidity Pool (6.5%)</p> <p class="text-muted fw-normal " style="font-size: 14px">Ensures sufficient liquidity to support price stability on TRICOIN Exchange
+                                            </p></li>
+                                    <li><p class="text-dark">Staking / Rewards (10%)</p> <p class="text-muted fw-normal" style="font-size: 14px">The staking program incentivizes token holders and supports price stability.
+                                                </p></li>
+                                    <li><p class="text-dark">Marketing & Growth (3.5%)</p> <p class="text-muted fw-normal" style="font-size: 14px">Funds are allocated for marketing activities, influencer partnerships, and educational
+                                        programs to increase public awareness of TRICOIN.
+
+                                                </p></li>
                             </ul>
                         </div>
                     </div>
@@ -179,7 +185,7 @@
                         <div class="ps-2-5">
                             <div class="card border-0 border-radius-none">
                                 <div class="card-body p-0">
-                                    <canvas id="myPieChart" height="200"></canvas>
+                                    <canvas id="myChart" height="200"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +209,7 @@
                                     <ul class="resp-tabs-list hor_1">
                                         <li>
                                             <div class="tab-box">
-                                                General
+                                                Tricoin
                                             </div>
                                         </li>
                                         <li>
@@ -233,16 +239,13 @@
                                                     <h2 class="card-header" id="headingOne">
                                                         <button class="accordion-button" type="button"
                                                             data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                            aria-expanded="true" aria-controls="collapseOne">How do i
-                                                            benefit from the ICO token ?</button>
+                                                            aria-expanded="true" aria-controls="collapseOne">What is TRICOIN ?</button>
                                                     </h2>
                                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                                         aria-labelledby="headingOne" data-bs-parent="#accordion">
-                                                        <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
+                                                        <div class="card-body">TRICOIN is a transparent and sustainable cryptocurrency ecosystem designed to create a secure
+                                                            and fair investment environment for its community. The project emphasizes openness, investor
+                                                            protection, and equitable profit sharing through blockchain technology.
                                                         </div>
                                                     </div>
                                                 </div>
@@ -250,16 +253,39 @@
                                                     <h2 class="card-header" id="headingTwo">
                                                         <button class="accordion-button collapsed" type="button"
                                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                            aria-expanded="true" aria-controls="collapseTwo">How to
-                                                            buy cryptocurrency ?</button>
+                                                            aria-expanded="true" aria-controls="collapseTwo">What sets TRICOIN apart from other crypto projects?
+                                                        </button>
                                                     </h2>
                                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                                         aria-labelledby="headingTwo" data-bs-parent="#accordion">
                                                         <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
+                                                            TRICOIN is the first token to prioritize full transparency and offers community members the
+                                                            opportunity to participate in strategic management roles within TRICOIN. Additionally, TRICOIN is
+                                                            pioneering in providing dividend rewards to all token holders, enabling them to directly benefit from
+                                                            the project's growth and success.
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="accordion" id="accordion2">
+                                                <div class="card mb-3 mb-lg-0">
+                                                    <h2 class="card-header" id="headingFour">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                            aria-expanded="true" aria-controls="collapseFour">What are the benefits of staking in TRICOIN?</button>
+                                                    </h2>
+                                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                                        aria-labelledby="headingFour" data-bs-parent="#accordion">
+                                                        <div class="card-body">
+                                                            Staking in TRICOIN allows token holders to earn passive income by locking their tokens within the
+TRICOIN FAQ
+network. This staking program is designed to encourage long-term engagement and provide returns
+to users who support the network's stability.
                                                         </div>
                                                     </div>
                                                 </div>
@@ -267,109 +293,20 @@
                                                     <h2 class="card-header" id="headingThree">
                                                         <button class="accordion-button collapsed" type="button"
                                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                            aria-expanded="true" aria-controls="collapseThree">What is
-                                                            cryptocurrency ?</button>
+                                                            aria-expanded="true" aria-controls="collapseThree">What is TRIXChain?</button>
                                                     </h2>
                                                     <div id="collapseThree" class="accordion-collapse collapse"
                                                         aria-labelledby="headingThree" data-bs-parent="#accordion">
                                                         <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
+                                                            TRIXChain is a blockchain network planned by TRICOIN to support decentralized transactions and
+decentralized applications (dApps). The development of TRIXChain will begin after the completion of
+TRICOIN's main roadmap to prevent potential miscommunication. TRIXChain is designed to be a
+secure, scalable, and community-supported network, with additional features like staking and NFT
+support in the future.
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="card mb-3 mb-lg-0">
-                                                    <h2 class="card-header" id="headingFour">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                            aria-expanded="true" aria-controls="collapseFour">What are
-                                                            the objectives of this token ?</button>
-                                                    </h2>
-                                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingFour" data-bs-parent="#accordion">
-                                                        <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="col-lg-6">
-                                            <div class="accordion" id="accordion2">
-                                                <div class="card">
-                                                    <h2 class="card-header" id="headingFive">
-                                                        <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                                            aria-expanded="true" aria-controls="collapseFive">What
-                                                            cryptoz smart contract ?</button>
-                                                    </h2>
-                                                    <div id="collapseFive" class="accordion-collapse collapse show"
-                                                        aria-labelledby="headingFive" data-bs-parent="#accordion2">
-                                                        <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card">
-                                                    <h2 class="card-header" id="headingSix">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                                            aria-expanded="true" aria-controls="collapseSix">What is
-                                                            the refund policy ?</button>
-                                                    </h2>
-                                                    <div id="collapseSix" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingSix" data-bs-parent="#accordion2">
-                                                        <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card">
-                                                    <h2 class="card-header" id="headingSeven">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                                            aria-expanded="true" aria-controls="collapseSeven">What is
-                                                            3D desing and how it work ?</button>
-                                                    </h2>
-                                                    <div id="collapseSeven" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingSeven" data-bs-parent="#accordion2">
-                                                        <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card">
-                                                    <h2 class="card-header" id="headingEight">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseEight"
-                                                            aria-expanded="true" aria-controls="collapseEight">Bitcoin
-                                                            payment system ?</button>
-                                                    </h2>
-                                                    <div id="collapseEight" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingEight" data-bs-parent="#accordion2">
-                                                        <div class="card-body">
-                                                            However, the skyrocketing cost of cryptocurrencies has made
-                                                            them famous as buying and selling instruments. To a
-                                                            restricted extent, they may be extensively utilized for
-                                                            cross-border transfers.
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -382,8 +319,7 @@
                                                     <h2 class="card-header" id="headingNine">
                                                         <button class="accordion-button" type="button"
                                                             data-bs-toggle="collapse" data-bs-target="#collapseNine"
-                                                            aria-expanded="true" aria-controls="collapseNine">How do i
-                                                            benefit from the ICO token ?</button>
+                                                            aria-expanded="true" aria-controls="collapseNine">awefawefO token ?</button>
                                                     </h2>
                                                     <div id="collapseNine" class="accordion-collapse collapse show"
                                                         aria-labelledby="headingNine" data-bs-parent="#accordion3">
@@ -876,6 +812,58 @@
     <script src="{{ asset('assets/quform/js/scripts.js') }}"></script>
 
     <!-- all js include end -->
+
+    <script>
+const ctx = document.getElementById('myChart');
+
+new Chart(ctx, {
+  type: 'pie',
+  data: {
+    labels: [
+      'Presale, Airdrop, & Community Incentives (66.67%)',
+      'Team & Development, Chain Inventory (13.33%)',
+      'Liquidity Pool (6.5%)',
+      'Staking / Rewards (10%)',
+      'Marketing & Growth (3.5%)'
+    ],
+    datasets: [{
+      label: 'Distribution',
+      data: [66.67, 13.33, 6.5, 10, 3.5],
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.6)',
+        'rgba(54, 162, 235, 0.6)',
+        'rgba(255, 206, 86, 0.6)',
+        'rgba(75, 192, 192, 0.6)',
+        'rgba(153, 102, 255, 0.6)'
+      ],
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      tooltip: {
+        callbacks: {
+          label: function(tooltipItem) {
+            return tooltipItem.label + ': ' + tooltipItem.raw + '%';
+          }
+        }
+      }
+    }
+  }
+});
+
+      </script>
 
 </body>
 
